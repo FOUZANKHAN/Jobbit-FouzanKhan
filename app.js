@@ -20,7 +20,6 @@ const jobsSchema = new mongoose.Schema({
   techStack:String,
   createdAt:String
 });
-asdvdasvadsvdvsa
 
 const Job = mongoose.model("Job",jobsSchema);
 
