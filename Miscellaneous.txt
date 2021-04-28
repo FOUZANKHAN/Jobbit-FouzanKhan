@@ -1,0 +1,16 @@
+//Alternative Approach to print the contents of the mongdb database
+//It consists of bootstrap
+<div class = "container">
+
+  <% appliedJobs.forEach(function(job){ %>
+    <div class = "row">
+    <p class = "col-6 col-sm"><%= job.companyName %></p>
+    <p class = "col-6 col-sm"><%= job.role %></p>
+    <p class = "col-6 col-sm"><%= job.url%></p>
+    <p class= "col-6 col-sm"><%= job.techStack %></p>
+    <p class= "col-6 col-sm"><%= job.remoteOption %></p>
+    <p class = "col-2 col-sm"><%= job.createdAt %></p>
+    <br>
+  </div>
+  <%})%>
+</div>
