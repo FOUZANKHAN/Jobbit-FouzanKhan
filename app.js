@@ -77,7 +77,19 @@ app.post("/home",function(req,res){
 
 });
 
-
+app.post("/deleteEntry",function(req,res){
+  const delReqItem = req.body.delButton;
+  Job.findByIdAndRemove(delReqItem,function(err){
+    if(!err){
+      console.log("Some Entry with _id = "+ delReqItem +"was selected for deletions");
+      res.redirect("/");
+    }
+    else{
+      //console.log(err);
+      res.redirect("/");
+    }
+  });
+});
 
 
 

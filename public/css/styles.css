@@ -1,1 +1,47 @@
-
+.contentLabel{
+  width: 40%;
+  margin-right: 40px;
+  float: left;
+  text-align: right;
+}
+input[type = text]{
+  margin: 5px;
+  text-align: center;
+  padding:4px;
+  border-radius:10px;
+}
+textarea{
+  margin: 5px;
+  text-align: center;
+  border-radius:10px;
+  padding: 4px;
+}
+.formSubmitButton{
+  margin: 0 auto;
+  display: block;
+  border-radius: 35%
+}
+.heading{
+  background-color: #79a3b1;
+  padding: 8px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.formDivision{
+background-color: #79a3b1;
+padding: 5px;
+margin-top: 0;
+margin-bottom: 0;
+}
+.contentDivision{
+  background-color:#d0e8f2;
+  padding:5px;
+  margin-bottom: 0;
+}
+.Monitor{
+  width: 15%;
+  background-color: #fcf8ec;
+  text-align: center;
+  padding: 3px;
+  margin-bottom: 10px;
+}
