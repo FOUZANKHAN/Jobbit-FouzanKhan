@@ -97,4 +97,5 @@ app.post("/deleteEntry",function(req,res){
 app.listen(3000, function() {
   console.log("Jobbit server is up and running");
   console.log(date.getDate());
+  //console.log(Job.find({},{_id:0,CreatedAt:true}));
 });
