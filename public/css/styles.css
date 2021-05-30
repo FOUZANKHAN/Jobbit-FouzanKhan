@@ -1,47 +1,135 @@
-.contentLabel{
-  width: 40%;
-  margin-right: 40px;
-  float: left;
-  text-align: right;
+
+.formIsolation{
+margin-top: 80px;
+padding-top: 25px;
+background-color: #d0e8f2;
+width: 500px;
+height: 600px;
+left: 900px;
+top: 100px;
+position: absolute;
+background: #79a3b1;
+box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
 }
+.heading{
+width: 200px;
+height: 50px;
+font-family: 'Quicksand', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+letter-spacing: 0.012em;
+color: #f4f5db;
+margin-left: 187px;
+}
+
+.formInput{
+width: 400px;
+padding-left: 0;
+height: 54px;
+left: 623px
+top: 499px;
+background: white;
+border-radius: 0;
+color: black;
+
+}
+.laptopImage{
+width: 535px;
+height: 458px;
+margin-top: 0;
+margin-bottom: 0;
+left: 1765px;
+top: -3px;
+position: relative;
+z-index: 5;
+}
+
 input[type = text]{
   margin: 5px;
   text-align: center;
   padding:4px;
-  border-radius:10px;
+  border-radius:0;
+  margin-left: 48px;
 }
 textarea{
   margin: 5px;
   text-align: center;
   border-radius:10px;
   padding: 4px;
+  width: 400px;
+  height: 104px;
+  left: 623px;
+  top: 639px;
+  margin-left:48px;
+
+  background: white;
+  border-radius: 4px;
+  color: black;
 }
+
 .formSubmitButton{
-  margin: 0 auto;
-  display: block;
-  border-radius: 35%
+width: 400px;
+height: 54px;
+left: 623px;
+top: 771px;
+margin-left: 48px;
+background-color: #456268
 }
-.heading{
-  background-color: #79a3b1;
-  padding: 8px;
+.remoteCheckBox{
+  height: 35px;
+  font-size: 23px;
+  margin-left: 48px;
+  font-family: 'Quicksand';
+}
+.backgroundOfForm{
+  background-color: #456268;
+  height: 1300px;
   margin-bottom: 0;
-  text-align: center;
+  width: 2300px;
 }
 .formDivision{
-background-color: #79a3b1;
-padding: 5px;
+background-color: #456268;
+padding: 20px;
 margin-top: 0;
-margin-bottom: 0;
+margin-bottom: 700px;
 }
+
 .contentDivision{
-  background-color:#d0e8f2;
-  padding:5px;
-  margin-bottom: 0;
+  background-color:#79a3b1;
+  padding:15px;
+  margin-top: 0;
+  font-family: "Quicksand";
+  color:#fcf8ec;;
 }
 .Monitor{
-  width: 15%;
+  width: 180px;
+  height: 180px;
   background-color: #fcf8ec;
   text-align: center;
-  padding: 3px;
-  margin-bottom: 10px;
+  padding-top: 40px;
+  padding-right: 5px;
+  color:black;
+}
+.numberOf{
+  font-size: 5em;
+  font-family: 'Quicksand';
+}
+.headingContent{
+  font-family: 'Quicksand';
+}
+.deleteButton{
+  background-color: red;
+  font-size: 0.8em;
+  font-family: 'quicksand';
+  padding: 2px;
+}
+.table{
+  color:#fcf8ec;
+  font-size: 1.3em;
+  width: 2280px;
+  border-style:;
 }

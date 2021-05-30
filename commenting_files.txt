@@ -1,0 +1,24 @@
+ <label class = "contentLabel">Company Name: <br></label>
+    <label class = "contentLabel" >Role:<br></label>
+     <label class = "contentLabel" >Job URL:<br></label>
+      <label class = "contentLabel" >Remote: <br></label>
+       <label for="remote">No</label>
+        <label class = "contentLabel">Tech Stack:<br></label>
+.heading{
+background-color: #79a3b1;
+padding: 8px;
+margin-bottom: 0;
+text-align: center;
+position: absolute;
+}
+
+.contentLabel{
+  width: 40%;
+  margin-right: 40px;
+  float: left;
+  text-align: right;
+}
+
+<img src="images/Rectangle 17.png" alt="laptop image"></img>
+<img src="images/Rectangle 18.png" alt="laptop image"></img>
+<img src="images/Rectangle 19.png" alt="laptop image"></img>
